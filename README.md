@@ -28,9 +28,11 @@ Stage 1 of a planned multi-stage build: the core graph and detection logic,
 with a tested two-step chain detector.
 
 ## Setup
+```
 conda create -n drugchain python=3.11
 conda activate drugchain
 pip install -r requirements.txt
+```
 
 ## Running
 python main.py
